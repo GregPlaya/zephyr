@@ -1,0 +1,60 @@
+{
+  "name": "zephyr",
+  "private": true,
+  "description": "gatsby-starter-default used for: Built By Zephyr",
+  "version": "0.1.0",
+  "author": "Vanish",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.66",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.0",
+    "framer-motion": "^4.1.17",
+    "gatsby": "^3.12.1",
+    "gatsby-background-image": "^1.5.3",
+    "gatsby-plugin-bugherd": "^1.0.2",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-image": "^1.12.0",
+    "gatsby-plugin-mailchimp": "^5.2.2",
+    "gatsby-plugin-manifest": "^3.12.0",
+    "gatsby-plugin-offline": "^4.12.0",
+    "gatsby-plugin-react-helmet": "^4.12.0",
+    "gatsby-plugin-scroll-reveal": "0.0.7",
+    "gatsby-plugin-sharp": "^3.12.0",
+    "gatsby-source-filesystem": "^3.12.0",
+    "gatsby-source-wordpress": "^5.13.0",
+    "gatsby-transformer-sharp": "^3.12.0",
+    "gbimage-bridge": "^0.1.4",
+    "gsap": "^3.7.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sal.js": "^0.8.5",
+    "sass": "^1.39.0",
+    "swiper": "^7.0.4"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

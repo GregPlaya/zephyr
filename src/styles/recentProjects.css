@@ -1,0 +1,63 @@
+.mySwiper {
+  margin-top: 20px;
+}
+
+#z-recentProjects {
+  margin-bottom: 50px;
+}
+
+.project-item {
+  position: relative;
+  transform: all 0.2s;
+}
+
+.project-item figure {
+  margin: 0;
+  padding: 0;
+}
+
+.project-item h4 {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  transform: all 0.2s;
+  color: var(--blue);
+}
+
+@media (min-width: 768px) {
+  .project-item h4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--blue);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-item:hover h4 {
+    opacity: 1;
+    background: rgba(0, 42, 92, 0.6);
+    color: white;
+    font-weight: normal;
+  }
+}
+
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+
+.swiper-button-prev-custom:hover {
+  transform: translateX(-10px);
+}
+.swiper-button-next-custom:hover {
+  transform: translateX(10px);
+}

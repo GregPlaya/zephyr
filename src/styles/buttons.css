@@ -1,0 +1,59 @@
+button {
+  cursor: pointer;
+  font-family: "SofiaPro-Regular";
+}
+
+.btn {
+  border-style: solid;
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 0;
+  position: relative;
+  text-decoration: none;
+  background-color: white;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.btn-lg {
+  font-size: 20px;
+  padding: 24px 40px;
+}
+
+.btn-sm {
+  padding: 7px 15px;
+}
+
+.btn-blue-outline {
+  border: 2px solid #002a5c;
+  color: #002a5c;
+}
+
+.btn-blue-outline:after {
+  background: #002a5c;
+}
+
+.btn-blue-outline:hover {
+  color: #fff;
+  background: #002a5c;
+}
+
+.btn-blue-outline:hover:after {
+  width: 100%;
+}
+
+.btn-blue {
+  border-color: #002a5c;
+  background: #002a5c;
+  color: #fff;
+}

@@ -1,0 +1,17 @@
+.company-right-image.homepage {
+  padding-top: 50px;
+}
+
+.company-right-image.normal {
+  padding-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .company-right-image.homepage {
+    padding-top: 0;
+  }
+
+  .company-right-image.normal {
+    padding-top: 0px;
+  }
+}

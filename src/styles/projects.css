@@ -1,0 +1,60 @@
+.tags {
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.tags .btn {
+  font-weight: normal;
+}
+
+.projects {
+  --bs-gutter-x: 20px;
+  --bs-gutter-y: 20px;
+}
+
+#z-project .project-item {
+  max-width: 300px;
+}
+
+.highlight-item {
+  border-left: 2px solid blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.highlight-item div {
+  padding-left: 15px;
+}
+
+.row-44 {
+  --bs-gutter-x: 44px;
+  --bs-gutter-y: 44px;
+  margin-top: 0;
+}
+
+.project-navigation div {
+  margin-bottom: 3px;
+}
+
+.project-navigation img {
+  margin-top: 10px;
+}
+
+.project-navigation a.blue-line {
+  color: var(--blue);
+  border-bottom: 2px solid var(--blue);
+  padding-top: 0;
+  padding-bottom: 3px;
+}
+
+.prev-project-arrow img,
+.next-project-arrow img {
+  transition: 0.2s all linear;
+}
+
+.prev-project-arrow:hover img {
+  transform: translateX(-10px) scaleX(-1) !important;
+}
+.next-project-arrow:hover img {
+  transform: translateX(10px) !important;
+}

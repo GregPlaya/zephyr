@@ -1,0 +1,32 @@
+.leaders.row {
+  margin-bottom: 55px;
+}
+
+.leader {
+  margin-bottom: 84px;
+}
+.leader h3,
+.leader h4 {
+  color: var(--blue);
+  margin-bottom: 0;
+}
+
+.leader-title {
+  transition: 0.2s all linear;
+}
+
+.leader-title:hover {
+  color: black;
+}
+
+@media (min-width: 576px) {
+  .leader-text-col {
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .leader-text-col {
+    padding-right: 100px;
+  }
+}
